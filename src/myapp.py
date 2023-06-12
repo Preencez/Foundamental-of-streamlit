@@ -8,7 +8,7 @@ from PIL import Image
 st.set_page_config(page_title="Item Price Prediction App")
 
 # Load the saved model
-model = joblib.load(r"D:\Projects\LP 2-Linear Regression Project\random_forest_model.pkl")
+model = joblib.load(r"D:\Projects\LP 2-Linear Regression Project\best_model.pkl")
 
 # Define the input and output interfaces for the Streamlit app
 st.title("Item Price Prediction App")
