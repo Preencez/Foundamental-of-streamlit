@@ -1,7 +1,8 @@
+from sklearn.preprocessing import OrdinalEncoder
 import streamlit as st
 import pandas as pd
 import joblib
-from sklearn.preprocessing import OrdinalEncoder
+#from sklearn.preprocessing import OrdinalEncoder
 from PIL import Image
 
 # Set the page title and configuration
@@ -20,13 +21,13 @@ def welcome_page():
     st.write("This app predicts the price of items based on user input.")
 
     # Add an image
-    image = Image.open(r"D:/Projects/foundamental of streamlit/R.jpg")
+    image = Image.open(r"C:\Users\asus\Desktop\store.jpg")
     st.image(image)
 
 # Page 2: Prediction Page
 def prediction_page():
     # Add custom for the background image
-    image = Image.open(r"C:/Users/asus/Desktop/scroll-down_2_orig.png")
+    image = Image.open(r"C:\Users\asus\Desktop\R.png")
     st.image(image)
 
     # Add a header and description for the prediction page
